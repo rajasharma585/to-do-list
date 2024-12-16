@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo-List App</title>
+    <link rel="shortcut icon" href="favicon.svg" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section class="section">
+        <div class="todo-container">
+            <div class="todo-header">
+                <h3>RS Todo List 📝</h3>
+                <div class="input">
+                    <input class="task" type="text" name="todo" id="todoInput" placeholder="Add a new todo" />
+                    <button class="btn" id="addBtn">Add</button>
+                </div>
+            </div>
+            <hr class="divider" />
+            <div class="todo-content">
+                <ul class="todo-list scroll">
+                    <div class="todo">
+                    </div>
+                </ul>
+            </div>
+            <hr class="divider" />
+            <div class="todo-footer">
+                <div class="todo-counter">
+                    <p>
+                        <span class="counter">0</span>
+                        Total Items
+                    </p>
+                </div>
+                <button id="deleteBtn">Delete All</button>
+            </div>
+        </div>
+    </section>
+
+    <script src="./main.js"></script>
+</body>
+
+</html>
